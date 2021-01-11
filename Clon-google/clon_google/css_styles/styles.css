@@ -9,9 +9,14 @@ background-color: aqua;
 width: 100%;
 height: 80px;
 display: flex;
-flex-direction: row;
+justify-content: flex-end;
 }
 p{
     margin: 0%, 55%;
     padding: 0%, 4%;
+}
+.login
+{
+display: flex;
+flex-direction: row;
 }
