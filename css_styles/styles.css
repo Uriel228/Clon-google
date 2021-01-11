@@ -5,18 +5,38 @@ body
 }
 .header
 {
-background-color: aqua;
 width: 100%;
 height: 80px;
 display: flex;
 justify-content: flex-end;
 }
-p{
-    margin: 0%, 55%;
-    padding: 0%, 4%;
-}
-.login
+.section
 {
-display: flex;
-flex-direction: row;
+    width: 196px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    text-align: right;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.section__letr
+{
+    display: flex;
+    flex-direction: row;
+    padding-right: 10px;
+}
+.section__icon
+{
+    display: flex;
+    flex-direction: row;
+    padding-right: 19px;
+    margin-right: 3px;
+}
+p{
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+    margin-right: 3px;
+    margin-left: 12px;
+    margin-top: 20px;
 }
